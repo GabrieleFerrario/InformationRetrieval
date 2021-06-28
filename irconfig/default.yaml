@@ -1,0 +1,42 @@
+# Ensure this points to elasticdump binary if you need it
+elasticdump_binary: elasticdump
+elasticsearch_hosts: []
+elasticsearch_indices:
+  users:
+    name: users
+    file: irconfig/mappings/users.json
+  usertweets:
+    name: usertweets
+    file: irconfig/mappings/tweets.json
+
+  retrievalbase:
+    name: retrievalbase
+    file: irconfig/mappings/tweets.json
+
+users:
+  - name: BarackObama
+    count: 3000
+  - name: BorisJohnson
+    count: 3000
+  - name: JoeBiden
+    count: 3000
+  - name: KingJames
+    count: 3000
+  - name: sterling7
+    count: 1400
+  - name: KDTrey5
+    count: 3000
+
+retrievalbase:
+  - name: WSJ
+    count: 3000
+  - name: BBCWorld
+    count: 3000
+  - name: nytimes
+    count: 3000
+  - name: USATODAY
+    count: 3000
+  - name: FOXSports
+    count: 3000
+  - name: BBCSport
+    count: 3000

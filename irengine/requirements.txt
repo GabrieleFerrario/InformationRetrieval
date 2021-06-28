@@ -1,0 +1,9 @@
+tweepy
+jupyter
+elasticsearch>=7.0.0,<8.0.0
+himl
+click
+nltk
+numpy
+sklearn
+emoji

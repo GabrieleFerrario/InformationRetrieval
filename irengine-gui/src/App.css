@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+}
+
+.MuiAvatar-circle {
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.noresults {
+    text-align: center;
+}
+
+.noresultscontainer {
+    margin-left: 40%;
+    width: 30%;
+}
+
+img.icon {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+mark.qmatch{
+    background-color: aquamarine;
+}
+
+mark.pmatch {
+    background-color: deeppink;
+}
+
+mark.hashtag {
+    color: cornflowerblue;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.credits {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+ }
+
+.resultnum {
+    margin-left: 45%;
+}
